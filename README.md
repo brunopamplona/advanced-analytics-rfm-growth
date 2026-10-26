@@ -54,6 +54,32 @@ Foram avaliados $k \in [3, 7]$ utilizando **Silhouette Score**, **Inércia**, **
 
 A base ativa de 670,6k assinantes analisada gerou os seguintes perfis comportamentais e métricas de risco[cite: 2]:
 
+### Detalhamento dos Agrupamentos (Base Histórica x Ação CRM)
+
+1. **Cinéfilos de Cupom (38,5% Receita | 24,7% Clientes)**[cite: 2]
+   * *Perfil:* $R = 1$ dia, $F = 15.7$ pedidos, uso frequente de cupons ($1.34$)[cite: 2].
+   * *Estratégia:* Pacote de 3 aluguéis TVOD com 30% off (desconto focado no filme/conteúdo, preservando o valor da mensalidade do plano)[cite: 2].
+2. **Fiéis a Preço Cheio (32,0% Receita | 21,2% Clientes)**[cite: 2]
+   * *Perfil:* $R = 1$ dia, $F = 13.6$ pedidos, $0$ cupons utilizados[cite: 2].
+   * *Estratégia:* **Nunca enviar cupom** (evita canibalização do ARPU); oferecer benefícios não monetários (e.g., acesso antecipado a estreias e convite para contrato anual)[cite: 2].
+3. **Esfriando - Alto Valor (17,1% Receita | 16,3% Clientes)**[cite: 2]
+   * *Perfil:* Recência elevada ($R = 6$ dias sem acesso), alto histórico ($F = 9.5$), Churn 90d de **27,4%**[cite: 2, 3].
+   * *Estratégia:* Réguas de reengajamento ativo (Crédito TVOD de R$ 15 ou canal adicional temporário); contato humanizado via WhatsApp[cite: 2].
+4. **Novatos em Experimentação (5,5% Receita | 19,6% Clientes)**[cite: 2]
+   * *Perfil:* $F = 3.0$, churn inicial de $19,5\%$[cite: 2, 3].
+   * *Estratégia:* Onboarding guiado e ativação rápida em D7 ($1º$ aluguel cortesia para acelerar o hábito de consumo)[cite: 2].
+5. **Presenteados (4,8% Receita | 5,3% Clientes)**[cite: 2]
+   * *Perfil:* $100\%$ oriundos de períodos promocionais/presente, NPS $5.5$, churn de $29,0\%$ no fim do benefício[cite: 2, 3].
+   * *Estratégia:* Campanha de conversão no $3º$ mês ("Primeiro mês próprio com 40% off" ou "Prova pessoal de horas assistidas")[cite: 2, 3].
+6. **Quase Perdidos (2,2% Receita | 12,9% Clientes)**[cite: 2]
+   * *Perfil:* $R = 5$ dias, $F = 2.0$, NPS $5.0$, Churn de **50,8%** em 90 dias[cite: 2, 3].
+   * *Estratégia:* Intervenções automatizadas de baixíssimo custo (e.g., oferta de pausa temporária da assinatura em vez do cancelamento direto)[cite: 2].
+
+---
+
+## 🔍 Vazamentos Fisiológicos: Unit Economics & Canais
+
+A análise diagnóstica cruzando origem de pagamento, canal de aquisição e desconto identificou 3 "vazamentos" estruturais de margem[cite: 3]:
 
 ---
 
